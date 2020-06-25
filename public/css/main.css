@@ -1,0 +1,145 @@
+html.login,
+html.login body {
+    height: 100%;
+}
+body {
+    background: #939bb1;
+    font-family: "Nunito", sans-serif;
+}
+body.app {
+    background: #ced2dc;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #305d8d;
+    border-bottom: 2px solid #305d8d;
+}
+.user-view .avatar {
+    margin: 0 auto;
+}
+.background {
+    background: #305d8d;
+}
+.sidenav-trigger {
+    position: absolute;
+    top: 10px;
+    right: 0.75rem;
+    color: #305d8d;
+    display: none;
+}
+.sidenav-trigger .material-icons {
+    font-size: 3rem;
+}
+.btn,
+.btn-large,
+.btn-small {
+    background-color: #004d40;
+}
+.titulos {
+    color: #305d8d;
+}
+p.actividad {
+    border-bottom: 1px dotted #305d8d;
+    margin: 1em 0 !important;
+    padding-right: 16px;
+    position: relative;
+}
+p.actividad strong {
+    color: #305d8d;
+    font-weight: 700;
+}
+span.quitar {
+    font-size: .75rem;
+    padding: .25rem;
+    cursor: pointer;
+    border-radius: 3px;
+    right: 0;
+    position: absolute;
+    top: 5px;
+}
+.fondoSistema,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus {
+    background-color: #305d8d;
+}
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea,
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #305d8d;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    -webkit-box-shadow: 0 1px 0 0 #305d8d;
+    box-shadow: 0 1px 0 0 #305d8d;
+}
+.tabs .tab a {
+    color: #305d8d;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: #305d8d;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background-color: rgba(48, 93, 141, 0.2);
+}
+.tabs .indicator {
+    background-color: #305d8d;
+}
+
+@media only screen and (max-width: 992px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        border-bottom: 1px solid #18417a;
+    }
+    .sidenav-trigger {
+        display: block;
+    }
+}
