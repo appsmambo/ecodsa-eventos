@@ -268,6 +268,7 @@
         actualizarActividades();
     }
     function actualizarActividades() {
+        if (actividades.length === 0) return;
         tablaActividades.innerHTML = '';
         var items = '[';
         actividades.forEach(function(item, index) {
